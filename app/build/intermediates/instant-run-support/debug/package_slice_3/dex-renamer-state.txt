@@ -1,0 +1,4 @@
+#Mon Jun 12 16:39:10 KST 2017
+base.0=C\:\\Users\\216\\Desktop\\11\\CalendarProto_hjhj\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3
+renamed.0=classes.dex
+file.0=C\:\\Users\\216\\Desktop\\11\\CalendarProto_hjhj\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3\\classes.dex

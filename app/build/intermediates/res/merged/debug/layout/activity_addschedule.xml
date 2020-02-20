@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--일정 이름 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text=" 일정  "
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_schedule"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="입력하시오"
+
+            />
+
+
+    </LinearLayout>
+
+    <!--달력 팝업 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text=" 날짜 "
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_date"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:editable="false"
+            android:ems="10"/>
+        <Button
+            android:id="@+id/select_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="날짜 선택 "
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+    <!--반복 설정 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:onClick="onClick"
+            android:text=" 반복 " />
+
+        <EditText
+            android:id="@+id/period_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="4" />
+
+        <EditText
+            android:id="@+id/period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="4"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마다"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/repeat_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:editable="false"
+            android:ems="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회 반복" />
+
+
+    </LinearLayout>
+    <!--등록/취소 버튼 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style = "@style/textStyle"
+            android:onClick="onClick"
+            android:id="@+id/btn_enter"
+            android:text="등록" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style = "@style/textStyle"
+            android:onClick="onClick"
+            android:id="@+id/btn_cancle"
+            android:text="취소" />
+    </LinearLayout>
+
+</LinearLayout>

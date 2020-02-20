@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\226\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\226\Desktop\hjhj\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_559e67c4cc9cc593c8572de7eb1bc19d2bb8d916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\226\.android\build-cache\29c8e76539fbbe35a0868ef9c0fc151681ad1078\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\226\Desktop\hjhj\app\build\intermediates\pre-dexed\debug\classes_e757f41645cb148a3513b9453762d3f71c387011.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\226\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\226\Desktop\hjhj\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_f417056b43fc42d59822708bc2c44e6d46cf976a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\226\.android\build-cache\bef8f9b89d3ead22180481bb42efb6366031ee59\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\226\Desktop\hjhj\app\build\intermediates\pre-dexed\debug\classes_172e2f8c4842f687dd279151f79c89262e14b151.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,4 @@
+#Thu Jun 15 18:49:03 KST 2017
+base.0=C\:\\Users\\216\\Desktop\\Do_it\!\\0612\\hjhj\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\216\\Desktop\\Do_it\!\\0612\\hjhj\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
